@@ -1,0 +1,36 @@
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.navbar {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.content-spacing {
+    margin-top: 150px;
+}
+
+.alert{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: red;
+    color: white;
+}
+
+.d-none{
+    display: none;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+}
